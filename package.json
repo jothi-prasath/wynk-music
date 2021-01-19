@@ -1,12 +1,24 @@
 {
   "name": "wynk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Electron-based desktop wrapper for Wynk music",
+  "homepage": "https://github.com/jothi-prasath/wynk-music",
+  "repository": {
+    "url": "git+https://github.com/jothi-prasath/wynk-music.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jothi-prasath/wynk-music/issues"
+  },
   "main": "index.js",
+  "author": "Jothi Prasath <jothiprasath2@gmail.com>",
   "scripts": {
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.6",
+    "electron-reload": "^1.5.0"
+  },
+  "devDependencies": {}
 }
