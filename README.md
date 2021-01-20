@@ -9,7 +9,7 @@
 
 ## Features
 
-**Wynk music** uses the GitHub-produced Electron framework to wrap around WhatsApp Web and add extra features to it.
+**Wynk music** uses the GitHub-produced Electron framework to wrap around website wynk.in and added extra features to it.
 
 - **Available for most desktop platforms** including Windows (7 or above), Linux and MacOS.
 - **Lightweight** it uses less ram than your normal borwser
