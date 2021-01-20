@@ -2,6 +2,7 @@
 
 
 **Wynk music** is an Electron-based lightweight wynk client, available for Windows, Mac and Linux!
+It is not a official destop app and it is **opensource**
 
 ![Wynk Banner](https://uploadon.net/wp-content/uploads/2019/09/Upload-On-Airtel-Wynk-Music-Free-Music-Distribution.png)
 
