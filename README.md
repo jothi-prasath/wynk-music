@@ -7,6 +7,15 @@
 
 ![Wynk Banner](https://uploadon.net/wp-content/uploads/2019/09/Upload-On-Airtel-Wynk-Music-Free-Music-Distribution.png)
 
+## Install
+
+  ```
+  $ npm install
+  ```
+  ```
+  $ npm start
+  ```
+
 
 
 ## Features
