@@ -1,5 +1,10 @@
 ## Wynk music for destop
 
+[![GitHub license](https://img.shields.io/github/license/jothi-prasath/wynk-music?style=for-the-badge)](https://github.com/jothi-prasath/wynk-music/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/jothi-prasath/wynk-music?style=for-the-badge)](https://github.com/jothi-prasath/wynk-music/issues)
+[![GitHub forks](https://img.shields.io/github/forks/jothi-prasath/wynk-music?style=for-the-badge)](https://github.com/jothi-prasath/wynk-music/network)
+[![GitHub stars](https://img.shields.io/github/stars/jothi-prasath/wynk-music?style=for-the-badge)](https://github.com/jothi-prasath/wynk-music/stargazers)
+
 
 **Wynk music** is an Electron-based lightweight wynk client, available for Windows, Mac and Linux!
 
