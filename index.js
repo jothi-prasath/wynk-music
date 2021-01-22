@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, nativeImage } = require('electron');
 const path = require('path');
 const myUserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'
 
@@ -6,12 +6,20 @@ const myUserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, lik
 
 let mainWindow
 
+let iconImage = nativeImage.createFromPath(
+  path.join(__dirname, "/build/icon.png")
+);
 
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
+    width: 700,
+    height: 600,
+    minWidth: 700,
+    minHeight: 600,
     frame: false,
     center: true,
+    icon: iconImage,
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
@@ -19,7 +27,7 @@ function createWindow() {
     }
   })
   mainWindow.webContents.userAgent = myUserAgent
-  mainWindow.setSize(770, 600, true)
+  mainWindow.setSize(700, 600, true)
   mainWindow.loadURL('http://wynk.in')
 }
 

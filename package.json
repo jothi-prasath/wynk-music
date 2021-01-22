@@ -12,7 +12,8 @@
   "main": "index.js",
   "author": "Jothi Prasath <jothiprasath2@gmail.com>",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=build/icon.ico --prune=true"
   },
   "keywords": [],
   "license": "GPL-3.0",
@@ -20,5 +21,8 @@
     "custom-electron-titlebar": "^3.2.6",
     "electron-reload": "^1.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-packager": "^15.2.0"
+  }
 }
