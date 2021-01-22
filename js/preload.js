@@ -10,5 +10,4 @@ window.addEventListener('DOMContentLoaded', () => {
     icon: false,
     menu: false,
   });
-  titlebar.updateTitle(wynk)
 })
