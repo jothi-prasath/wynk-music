@@ -28,7 +28,7 @@ function createWindow() {
     }
   })
   mainWindow.webContents.userAgent = myUserAgent
-  //mainWindow.setSize(800, 600, true)
+  mainWindow.setSize(1250, 600, false)
   mainWindow.loadURL('http://wynk.in')
   mainWindow.once('ready-to-show', () => {
     mainWindow.show()
