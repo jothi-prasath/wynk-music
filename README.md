@@ -38,7 +38,6 @@
 
 ![Wynk First Start png](./img/Wynk-First-start.png)
 
-### Default WhatsApp Theme
 
 ## Feature Requests
 
