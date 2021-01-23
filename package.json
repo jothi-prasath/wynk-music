@@ -1,6 +1,6 @@
 {
   "name": "wynk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron-based desktop wrapper for Wynk music",
   "homepage": "https://github.com/jothi-prasath/wynk-music",
   "repository": {
