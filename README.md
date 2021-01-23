@@ -10,7 +10,7 @@
 
    It is not a official desktop app
 
-![Wynk Banner](./build/banner.png)
+![Wynk Banner](./img/banner.png)
 
 ## Install
 
@@ -29,6 +29,16 @@
 
 - **Available for most desktop platforms** including Windows (7 or above), Linux and MacOS.
 - **Lightweight** it uses less ram than your normal borwser
+
+## Screenshots
+
+### First Start
+
+![Wynk First Start gif](./img/Wynk-First-start.gif)
+
+![Wynk First Start png](./img/Wynk-First-start.png)
+
+### Default WhatsApp Theme
 
 ## Feature Requests
 
