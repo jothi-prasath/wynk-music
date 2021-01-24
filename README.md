@@ -32,7 +32,6 @@
 
 ## Screenshots
 
-### First Start
 
 ![Wynk First Start gif](./img/Wynk-First-start.gif)
 
