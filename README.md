@@ -8,7 +8,7 @@
 
 **Wynk music** is an Electron-based lightweight wynk client, available for Windows, Mac and Linux!
 
-   It is not a official desktop app
+   **It is not a official desktop app**
 
 ![Wynk Banner](./img/banner.png)
 
