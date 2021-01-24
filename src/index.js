@@ -66,7 +66,6 @@ app.whenReady().then(() => {
       }
     }
   ])
-
   tray.setContextMenu(trayContextMenu)
 })
 
