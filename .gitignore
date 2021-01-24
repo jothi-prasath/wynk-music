@@ -1,4 +1,4 @@
 src/node_modules/
 src/node_modules/*
 Thumbs.db
-wynk-win32-ia32
+src/wynk-win32-ia32/*
