@@ -177,7 +177,6 @@ function createWindow() {
     minWidth: 1202,
     minHeight: 600,
     center: true,
-    autoHideMenuBar: true,
     // Set main window background color to hide loading
     backgroundColor: "#282C34",
     icon: iconImage,
