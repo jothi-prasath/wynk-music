@@ -197,7 +197,7 @@ function createWindow() {
 }
 
 app.whenReady().then(() => {
-  // Show the main window
+  // Show the main window after app ready
   mainWindow.show()
   tray = new Tray(iconImage)
   tray.setToolTip('Wynk music')
