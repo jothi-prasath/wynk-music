@@ -5,7 +5,7 @@ const myUserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, lik
 
 
 let mainWindow, tray
-
+// Icon
 let iconImage = nativeImage.createFromPath(
   path.join(__dirname, "/build/icon.png")
 );
@@ -33,6 +33,7 @@ function createWindow() {
   mainWindow.once('ready-to-show', () => mainWindow.show())
 }
 
+// System tray icon
 app.whenReady().then(() => {
   tray = new Tray(iconImage)
   tray.setToolTip('Wynk')
